@@ -50,7 +50,7 @@ class PredictionRequest(BaseModel):
     smoke: int = Field(..., ge=0, le=1, description="Smoking: 0=No, 1=Yes")
     alco: int = Field(..., ge=0, le=1, description="Alcohol: 0=No, 1=Yes")
     active: int = Field(..., ge=0, le=1, description="Physical activity: 0=No, 1=Yes")
-    age_years: int = Field(..., ge=30, le=80, description="Age in years")
+    age_years: int = Field(..., ge=10, le=90, description="Age in years")
     BMI: float = Field(..., ge=10, le=60, description="Body Mass Index")
 
     class Config:

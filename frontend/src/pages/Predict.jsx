@@ -13,7 +13,7 @@ const Predict = () => {
         gluc: '1',
         smoke: '0',
         alco: '0',
-        active: '1',
+        active: '0',
         age_years: '',
         BMI: '',
     });
