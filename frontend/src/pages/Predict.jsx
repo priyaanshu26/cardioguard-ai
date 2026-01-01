@@ -120,8 +120,8 @@ const Predict = () => {
                                         name="age_years"
                                         value={formData.age_years}
                                         onChange={handleChange}
-                                        min="30"
-                                        max="80"
+                                        min="10"
+                                        max="90"
                                         placeholder="e.g., 50"
                                         className="input-field"
                                         required
