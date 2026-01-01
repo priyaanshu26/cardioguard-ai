@@ -28,7 +28,7 @@ const Navbar = () => {
                             whileHover={{ scale: 1.1, rotate: 5 }}
                             className="text-3xl"
                         >
-                            🛡️
+                            <img src="https://cdn4.iconfinder.com/data/icons/medical-3-color-shadow/128/cardiology_cardio_heart_oncology_cardiology-surgery-512.png" alt="" height={35} width={35} />
                         </motion.div>
                         <span className="text-xl font-bold gradient-text hidden sm:block">
                             CardioGuard AI
