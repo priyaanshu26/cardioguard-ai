@@ -243,8 +243,8 @@ const ModelInfo = () => {
                             <div>
                                 <h3 className="font-semibold text-lg mb-2">Model Validation</h3>
                                 <ul className="list-disc list-inside space-y-1 ml-4">
-                                    <li>Train accuracy: {metrics?.train_accuracy}%</li>
-                                    <li>Test accuracy: {metrics?.test_accuracy}%</li>
+                                    <li>Train accuracy: {metrics?.train_accuracy} %</li>
+                                    <li>Test accuracy: {metrics?.test_accuracy} %</li>
                                     <li>Good balance indicates no overfitting</li>
                                 </ul>
                             </div>
